@@ -9,3 +9,8 @@ przypisz go do nowej zmiennej i wypisz na ekran.
 Podpowiedź:
 Skorzystaj z modułu random
 """
+import random
+
+kolory = ['czerwony', 'niebieski', 'żółty', 'zielony']
+
+print(', '.join(kolory))
